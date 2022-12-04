@@ -1,0 +1,420 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormPage matches snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="form-page"
+      >
+        <form
+          class="form"
+        >
+          <h2>
+            Add your product
+          </h2>
+          <label
+            class="form__title"
+          >
+            Title*
+            <input
+              name="title"
+              type="text"
+            />
+          </label>
+          <label
+            class="form__productType"
+          >
+            Type of product*
+            <select
+              name="productType"
+            >
+              <option
+                value=""
+              >
+                choose value
+              </option>
+              <option
+                value="own production"
+              >
+                own production
+              </option>
+              <option
+                value="resale"
+              >
+                resale
+              </option>
+            </select>
+          </label>
+          <fieldset
+            class="form__prices"
+          >
+            <legend>
+              Prices
+            </legend>
+            <label>
+              Current price*
+              <input
+                name="currentPrice"
+                type="number"
+              />
+            </label>
+            <label>
+              Old price
+              <input
+                name="oldPrice"
+                type="number"
+              />
+            </label>
+          </fieldset>
+          <fieldset
+            class="form__promo"
+          >
+            <legend>
+              Participation in promotions*
+            </legend>
+            <label>
+              <input
+                name="promo"
+                type="radio"
+                value="promoYes"
+              />
+              Yes
+            </label>
+            <label>
+              <input
+                name="promo"
+                type="radio"
+                value="promoNo"
+              />
+              No
+            </label>
+          </fieldset>
+          <label
+            class="form__img"
+          >
+            Choose image*
+            <img
+              alt="choose file"
+              src="./images/no-image.png"
+              width="50px"
+            />
+            <input
+              name="img"
+              type="file"
+            />
+            <span>
+              File not selected
+            </span>
+          </label>
+          <label
+            class="form__description"
+          >
+            Description
+            <textarea
+              name="description"
+            />
+          </label>
+          <label
+            class="form__bestBefore"
+          >
+            Best before date*
+            <input
+              name="bestBefore"
+              type="date"
+            />
+          </label>
+          <fieldset
+            class="form__delivery"
+          >
+            <legend>
+              Delivery options*
+            </legend>
+            <label>
+              <input
+                name="delivery"
+                type="checkbox"
+                value="pickup"
+              />
+              pickup
+            </label>
+            <label>
+              <input
+                name="delivery"
+                type="checkbox"
+                value="courier"
+              />
+              courier
+            </label>
+            <label>
+              <input
+                name="delivery"
+                type="checkbox"
+                value="post"
+              />
+              post
+            </label>
+          </fieldset>
+          <div
+            class="form__buttons"
+          >
+            <input
+              disabled=""
+              type="submit"
+              value="Add product"
+            />
+          </div>
+        </form>
+        <div
+          class="form-list"
+        >
+          <h2
+            class="form-list__title"
+          >
+            Your goods
+          </h2>
+          <div
+            class="form-list__items"
+          >
+            <span>
+              There're no items
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="form-page"
+    >
+      <form
+        class="form"
+      >
+        <h2>
+          Add your product
+        </h2>
+        <label
+          class="form__title"
+        >
+          Title*
+          <input
+            name="title"
+            type="text"
+          />
+        </label>
+        <label
+          class="form__productType"
+        >
+          Type of product*
+          <select
+            name="productType"
+          >
+            <option
+              value=""
+            >
+              choose value
+            </option>
+            <option
+              value="own production"
+            >
+              own production
+            </option>
+            <option
+              value="resale"
+            >
+              resale
+            </option>
+          </select>
+        </label>
+        <fieldset
+          class="form__prices"
+        >
+          <legend>
+            Prices
+          </legend>
+          <label>
+            Current price*
+            <input
+              name="currentPrice"
+              type="number"
+            />
+          </label>
+          <label>
+            Old price
+            <input
+              name="oldPrice"
+              type="number"
+            />
+          </label>
+        </fieldset>
+        <fieldset
+          class="form__promo"
+        >
+          <legend>
+            Participation in promotions*
+          </legend>
+          <label>
+            <input
+              name="promo"
+              type="radio"
+              value="promoYes"
+            />
+            Yes
+          </label>
+          <label>
+            <input
+              name="promo"
+              type="radio"
+              value="promoNo"
+            />
+            No
+          </label>
+        </fieldset>
+        <label
+          class="form__img"
+        >
+          Choose image*
+          <img
+            alt="choose file"
+            src="./images/no-image.png"
+            width="50px"
+          />
+          <input
+            name="img"
+            type="file"
+          />
+          <span>
+            File not selected
+          </span>
+        </label>
+        <label
+          class="form__description"
+        >
+          Description
+          <textarea
+            name="description"
+          />
+        </label>
+        <label
+          class="form__bestBefore"
+        >
+          Best before date*
+          <input
+            name="bestBefore"
+            type="date"
+          />
+        </label>
+        <fieldset
+          class="form__delivery"
+        >
+          <legend>
+            Delivery options*
+          </legend>
+          <label>
+            <input
+              name="delivery"
+              type="checkbox"
+              value="pickup"
+            />
+            pickup
+          </label>
+          <label>
+            <input
+              name="delivery"
+              type="checkbox"
+              value="courier"
+            />
+            courier
+          </label>
+          <label>
+            <input
+              name="delivery"
+              type="checkbox"
+              value="post"
+            />
+            post
+          </label>
+        </fieldset>
+        <div
+          class="form__buttons"
+        >
+          <input
+            disabled=""
+            type="submit"
+            value="Add product"
+          />
+        </div>
+      </form>
+      <div
+        class="form-list"
+      >
+        <h2
+          class="form-list__title"
+        >
+          Your goods
+        </h2>
+        <div
+          class="form-list__items"
+        >
+          <span>
+            There're no items
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,11 @@
+.search {
+    align-self: flex-end;
+    
+    &__button {
+      background-color: #46A358;
+      color: #fff;
+      border: none;
+      padding: 3px 15px;
+      cursor: pointer;
+    }
+}

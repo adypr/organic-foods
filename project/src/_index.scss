@@ -1,0 +1,137 @@
+/* Variables */
+
+$main-color: #3D3D3D;
+$secondary-color: #FBFBFB;
+$accent-color: #46A358;
+$attention-color: #FF6600;
+
+@font-face {
+  font-family: 'Organic-Brand';
+  src: url("assets/fonts/Organic-Brand.woff") format("woff2");
+}
+
+@font-face {
+  font-family: 'CeraPro-Regular';
+  src: url("assets/fonts/CeraPro-Regular.woff") format("woff2");
+}
+
+
+body {
+  margin: 0;
+  font-family: 'CeraPro-Regular', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: 0.2s ease;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: $main-color;
+  transition: 0.2s ease;
+
+  &:hover {
+    color: $accent-color;
+  }
+}
+
+header {
+  border-bottom: 2px solid rgba($accent-color, 0.5);
+  width: 100%;
+  
+
+}
+
+h1 {
+  font-family: 'Organic-Brand', serif;
+  color: $accent-color;
+  font-size: 32px;
+}
+
+main {
+  margin-bottom: auto;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  position: relative;
+}
+
+input {
+  margin-left: 10px;
+  border: none;
+  background-color: #FBFBFB;
+
+  &[type="submit"], &[type="reset"] {
+    max-width: 200px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &[type="submit"] {
+    &:hover {
+      background-color: $accent-color;
+      color: $secondary-color;
+    }
+  }
+
+  &[type="reset"] {
+    &:hover {
+      background-color: $attention-color;
+    }
+  }
+
+}
+
+footer {
+  background-color: $accent-color;
+  color: $secondary-color;
+  font-weight: bolder;
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+
+#root {
+  min-height: 100vh;
+  
+}
+
+.container, main {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    a {
+      &.active {
+        color: $accent-color;
+        font-size: 18px;
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #FBFBFB;
+    width: 230px;
+
+    &:hover {
+        border: 1px solid #46A358;
+        .card__icons {
+            display: flex;
+        }
+    }
+
+    &__label {
+        padding: 3px 15px;
+        position: absolute;
+        left: 0;
+
+        &-new {
+            background-color: #46A358;
+        }
+
+        &-sale {
+            background-color: #FF6600;
+        }
+    }
+
+
+
+    &__icons {
+        display: none;
+        position: absolute;
+        bottom: 100px;
+        left: 35%;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+
+    &__icon {
+        fill: #3D3D3D;
+
+        &:hover {
+            fill: #46A358;
+        }
+    }
+
+    &__picture {
+        background-color: #FBFBFB;
+       width: 100%;
+       height: 250px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    &__image {
+        width: 75%;
+    }
+
+&__title {
+    &::first-letter {
+        text-transform: uppercase;
+    }
+}
+
+    &__prices {
+        display: flex;
+        gap: 10px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    
+    &__old-price {
+        text-decoration: line-through;
+        color: rgba(#3D3D3D, 0.5);
+    }
+
+}

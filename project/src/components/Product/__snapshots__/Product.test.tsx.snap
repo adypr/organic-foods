@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product matches snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="product"
+        data-testid="productTitle"
+        id="123"
+      >
+        <img
+          alt="Title"
+          class="product__img"
+          height="100px"
+          src="file.png"
+          width="100px"
+        />
+        <div
+          class="product__content"
+        >
+          <h4
+            class="product__title"
+          >
+            Title
+          </h4>
+          <div
+            class="product__prices"
+          >
+            <span
+              class="product__price"
+            >
+              Current price: 
+              100
+            </span>
+            <span
+              class="product__old-price"
+            >
+              Old price: 
+              200
+            </span>
+          </div>
+          <div
+            class="product__settings"
+          >
+            <div
+              class="product__setting product__type"
+            >
+              type: 
+              resale
+            </div>
+            <div
+              class="product__setting product__action"
+            >
+              promo: 
+              ✅
+            </div>
+            <div
+              class="product__setting product__date"
+            >
+              best before: 
+              2024-04-04
+            </div>
+            <div
+              class="product__setting product__delivery"
+            >
+              delivery: 
+              post
+            </div>
+          </div>
+          <details
+            class="product__description"
+          >
+            <summary>
+              Description
+            </summary>
+            <div
+              class="product__text"
+              data-testid="productDescription"
+            >
+              Product description
+            </div>
+          </details>
+        </div>
+        <ul
+          class="product__control"
+        >
+          <li
+            class="control__item"
+          >
+            <a
+              class="control__link edit"
+              href="#"
+            >
+              🖉
+            </a>
+          </li>
+          <li
+            class="control__item"
+          >
+            <a
+              class="control__link remove"
+              data-testid="closeButton"
+              href="#"
+            >
+              ✖
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="product"
+      data-testid="productTitle"
+      id="123"
+    >
+      <img
+        alt="Title"
+        class="product__img"
+        height="100px"
+        src="file.png"
+        width="100px"
+      />
+      <div
+        class="product__content"
+      >
+        <h4
+          class="product__title"
+        >
+          Title
+        </h4>
+        <div
+          class="product__prices"
+        >
+          <span
+            class="product__price"
+          >
+            Current price: 
+            100
+          </span>
+          <span
+            class="product__old-price"
+          >
+            Old price: 
+            200
+          </span>
+        </div>
+        <div
+          class="product__settings"
+        >
+          <div
+            class="product__setting product__type"
+          >
+            type: 
+            resale
+          </div>
+          <div
+            class="product__setting product__action"
+          >
+            promo: 
+            ✅
+          </div>
+          <div
+            class="product__setting product__date"
+          >
+            best before: 
+            2024-04-04
+          </div>
+          <div
+            class="product__setting product__delivery"
+          >
+            delivery: 
+            post
+          </div>
+        </div>
+        <details
+          class="product__description"
+        >
+          <summary>
+            Description
+          </summary>
+          <div
+            class="product__text"
+            data-testid="productDescription"
+          >
+            Product description
+          </div>
+        </details>
+      </div>
+      <ul
+        class="product__control"
+      >
+        <li
+          class="control__item"
+        >
+          <a
+            class="control__link edit"
+            href="#"
+          >
+            🖉
+          </a>
+        </li>
+        <li
+          class="control__item"
+        >
+          <a
+            class="control__link remove"
+            data-testid="closeButton"
+            href="#"
+          >
+            ✖
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
